@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cyber-face</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <div class="header__elipses">
+        <img
+          src="img/elips1.png"
+          alt=""
+          class="header__elips header__elips-first"
+        />
+        <img
+          src="img/elips2.png"
+          alt=""
+          class="header__elips header__elips-second"
+        />
+        <img
+          src="img/elips3.png"
+          alt=""
+          class="header__elips header__elips-third"
+        />
+      </div>
+      <div class="burgerMenu">
+        <hr class="burgerMenu__line" />
+        <hr class="burgerMenu__line" />
+        <hr class="burgerMenu__line" />
+      </div>
+
+      <img src="img/logo.png" alt="" class="header__logo" />
+      <div class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a class="header__menu-item-link" href="#road">Как добраться</a>
+          </li>
+          <hr class="header__menu-line" />
+          <li class="header__menu-item">
+            <a class="header__menu-item-link" href="#cost">Цены</a>
+          </li>
+          <hr class="header__menu-line" />
+          <li class="header__menu-item">
+            <a class="header__menu-item-link" href="#service">Сервис</a>
+          </li>
+        </ul>
+      </div>
+      <img src="img/phone.svg" alt="" class="header__phone" data-phone="+7 (495) 108-05-18" />
+      <p class="header__phone-txt">+7 (495) 108-05-18</p>
+    </section>
+
+    <section class="welcome">
+      <div class="welcome__column welcome__column-left">
+        <h1 class="welcome__title">CYBER-FACE gaming club</h1>
+        <p class="welcome__txt">
+          Это ультрасовременные игровые компьютеры по очень низким ценам.<br />
+          <span class="welcome__txt-span">Приходите и убедитесь сами!</span>
+        </p>
+        <div class="welcome__btns">
+          <button class="welcome__btn welcome__btn-cost"><a href="#cost" class="welcome__btn-cost-link">Цены</a></button>
+          <button class="welcome__btn welcome__btn-call">Позвонить</button>
+        </div>
+      </div>
+      <div class="welcome__column welcome__column-right">
+        <div class="gamepad__container">
+          <img src="img/gamepad.png" alt="" class="welcome__gamepad" />
+        </div>
+      </div>
+    </section>
+    <section class="service" id="service">
+      <h1 class="pink__title pink__title-service">Наш сервис</h1>
+      <div class="service__blocks">
+        <div class="service__blocks-item">
+          <div class="service__blocks-item-text">
+            <h3 class="white__title service__blocks-item-title">
+              Компьютерные залы
+            </h3>
+            <p class="service__blocks-item-txt">
+              Зал с мощными игровыми компьютерами, которые поддерживают
+              на настройках «ультра» все последние и популярные игры,
+              все благодаря производительным видеокартам от Nvidia, GeForce RTX
+              2060.
+            </p>
+          </div>
+          <hr class="service-line" />
+        </div>
+        <div class="service__blocks-item">
+          <div class="service__blocks-item-text">
+            <h3 class="white__title service__blocks-item-title">
+              Зал с приставкой PlayStation 4
+            </h3>
+            <p class="service__blocks-item-txt">
+              Вы можете поиграть на приставках playstation 4, оборудованных
+              джойстиками dualshock 4 v2. Для консольных игр мы используем
+              телевизоры Samsung с диагональю 55.
+            </p>
+          </div>
+          <hr class="service-line" />
+        </div>
+        <div class="service__blocks-item">
+          <div class="service__blocks-item-text">
+            <h3 class="white__title service__blocks-item-title">
+              Сканирование и печать документов
+            </h3>
+            <p class="service__blocks-item-txt">
+              В общем зале мы так же можем предоставить услуги по сканированию
+              и черно-белой печати документов, рефератов, докладов.
+            </p>
+          </div>
+          <hr class="service-line service-line-plus" />
+        </div>
+      </div>
+    </section>
+
+    <section class="cost" id="cost"> 
+      <h2 class="pink__title pink__title-cost">
+        Цены на услуги пространства Cyber-Face
+      </h2>
+      <div class="cost__blocks">
+        <div class="cost__blocks-item">
+          <h3 class="cost__blocks-item-title">Аренда ПК</h3>
+          <div class="cost__days">
+            <div class="cost__days-block">
+              <p class="cost__days-block-title">Пн-Чт</p>
+              <hr class="cost__days-block-line" />
+            </div>
+            <div class="cost__days-block">
+              <p class="cost__days-block-title">Пт-Вс</p>
+              <hr class="cost__days-block-line" />
+            </div>
+          </div>
+          <div class="cost__blocks-item-services">
+            <div class="cost__blocks-item-service">
+              <h4 class="cost__blocks-item-service-title">АРЕНДА ПК 1 ЧАС</h4>
+              <div class="cost__blocks-item-service-prict">
+                <p class="cost__blocks-item-service-price-txt">100Р.</p>
+                <p class="cost__blocks-item-service-price-txt">120Р.</p>
+              </div>
+            </div>
+            <hr class="cost__blocks-line" />
+            <div class="cost__blocks-item-service">
+              <h4 class="cost__blocks-item-service-title">АРЕНДА ПК 1 ЧАС</h4>
+              <div class="cost__blocks-item-service-prict">
+                <p class="cost__blocks-item-service-price-txt">100Р.</p>
+                <p class="cost__blocks-item-service-price-txt">120Р.</p>
+              </div>
+            </div>
+            <hr class="cost__blocks-line" />
+            <div class="cost__blocks-item-service">
+              <h4 class="cost__blocks-item-service-title">АРЕНДА ПК 1 ЧАС</h4>
+              <div class="cost__blocks-item-service-prict">
+                <p class="cost__blocks-item-service-price-txt">100Р.</p>
+                <p class="cost__blocks-item-service-price-txt">120Р.</p>
+              </div>
+            </div>
+            <hr class="cost__blocks-line" />
+            <div class="cost__blocks-item-service">
+              <h4 class="cost__blocks-item-service-title">АРЕНДА ПК 1 ЧАС</h4>
+              <div class="cost__blocks-item-service-prict">
+                <p class="cost__blocks-item-service-price-txt">100Р.</p>
+                <p class="cost__blocks-item-service-price-txt">120Р.</p>
+              </div>
+            </div>
+            <hr class="cost__blocks-line" />
+            <div class="cost__blocks-item-service">
+              <h4 class="cost__blocks-item-service-title">АРЕНДА ПК 1 ЧАС</h4>
+              <div class="cost__blocks-item-service-prict">
+                <p class="cost__blocks-item-service-price-txt">100Р.</p>
+                <p class="cost__blocks-item-service-price-txt">120Р.</p>
+              </div>
+            </div>
+            <hr class="cost__blocks-line" />
+          </div>
+        </div>
+        <div class="cost__blocks-item">
+          <h3 class="cost__blocks-item-title">Аренда PlayStation</h3>
+          <div class="cost__days">
+            <div class="cost__days-block">
+              <p class="cost__days-block-title">Пн-Чт</p>
+              <hr class="cost__days-block-line" />
+            </div>
+            <div class="cost__days-block">
+              <p class="cost__days-block-title">Пт-Вс</p>
+              <hr class="cost__days-block-line" />
+            </div>
+          </div>
+          <div class="cost__blocks-item-services">
+            <div class="cost__blocks-item-service">
+              <h4 class="cost__blocks-item-service-title">АРЕНДА ПК 1 ЧАС</h4>
+              <div class="cost__blocks-item-service-prict">
+                <p class="cost__blocks-item-service-price-txt">100Р.</p>
+                <p class="cost__blocks-item-service-price-txt">120Р.</p>
+              </div>
+            </div>
+            <hr class="cost__blocks-line" />
+            <div class="cost__blocks-item-service">
+              <h4 class="cost__blocks-item-service-title">АРЕНДА ПК 1 ЧАС</h4>
+              <div class="cost__blocks-item-service-prict">
+                <p class="cost__blocks-item-service-price-txt">100Р.</p>
+                <p class="cost__blocks-item-service-price-txt">120Р.</p>
+              </div>
+            </div>
+            <hr class="cost__blocks-line" />
+            <div class="cost__blocks-item-service">
+              <h4 class="cost__blocks-item-service-title">АРЕНДА ПК 1 ЧАС</h4>
+              <div class="cost__blocks-item-service-prict">
+                <p class="cost__blocks-item-service-price-txt">100Р.</p>
+                <p class="cost__blocks-item-service-price-txt">120Р.</p>
+              </div>
+            </div>
+            <hr class="cost__blocks-line" />
+            <div class="cost__blocks-item-service">
+              <h4 class="cost__blocks-item-service-title">АРЕНДА ПК 1 ЧАС</h4>
+              <div class="cost__blocks-item-service-prict">
+                <p class="cost__blocks-item-service-price-txt">100Р.</p>
+                <p class="cost__blocks-item-service-price-txt">120Р.</p>
+              </div>
+            </div>
+            <hr class="cost__blocks-line" />
+            <div class="cost__blocks-item-service">
+              <h4 class="cost__blocks-item-service-title">АРЕНДА ПК 1 ЧАС</h4>
+              <div class="cost__blocks-item-service-prict">
+                <p class="cost__blocks-item-service-price-txt">100Р.</p>
+                <p class="cost__blocks-item-service-price-txt">120Р.</p>
+              </div>
+            </div>
+            <hr class="cost__blocks-line" />
+          </div>
+        </div>
+        <div class="cost__blocks-item cost__blocks-item-scan">
+          <h3 class="cost__blocks-item-title">Сканирование и печать</h3>
+          <div class="cost__days">
+            <div class="cost__days-block">
+              <p class="cost__days-block-title">Пн-Чт</p>
+              <hr class="cost__days-block-line" />
+            </div>
+            <div class="cost__days-block">
+              <p class="cost__days-block-title">Пт-Вс</p>
+              <hr class="cost__days-block-line" />
+            </div>
+          </div>
+          <div class="cost__blocks-item-services">
+            <div class="cost__blocks-item-service">
+              <h4 class="cost__blocks-item-service-title">АРЕНДА ПК 1 ЧАС</h4>
+              <div class="cost__blocks-item-service-prict">
+                <p class="cost__blocks-item-service-price-txt">100Р.</p>
+                <p class="cost__blocks-item-service-price-txt">120Р.</p>
+              </div>
+            </div>
+            <hr class="cost__blocks-line" />
+            <div class="cost__blocks-item-service">
+              <h4 class="cost__blocks-item-service-title">АРЕНДА ПК 1 ЧАС</h4>
+              <div class="cost__blocks-item-service-prict">
+                <p class="cost__blocks-item-service-price-txt">100Р.</p>
+                <p class="cost__blocks-item-service-price-txt">120Р.</p>
+              </div>
+            </div>
+            <hr class="cost__blocks-line" />
+            <div class="cost__blocks-item-service">
+              <h4 class="cost__blocks-item-service-title">АРЕНДА ПК 1 ЧАС</h4>
+              <div class="cost__blocks-item-service-prict">
+                <p class="cost__blocks-item-service-price-txt">100Р.</p>
+                <p class="cost__blocks-item-service-price-txt">120Р.</p>
+              </div>
+            </div>
+            <hr class="cost__blocks-line" />
+            <div class="cost__blocks-item-service">
+              <h4 class="cost__blocks-item-service-title">АРЕНДА ПК 1 ЧАС</h4>
+              <div class="cost__blocks-item-service-prict">
+                <p class="cost__blocks-item-service-price-txt">100Р.</p>
+                <p class="cost__blocks-item-service-price-txt">120Р.</p>
+              </div>
+            </div>
+            <hr class="cost__blocks-line" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="road" id="road">
+      <h2 class="pink__title">Как нас найти</h2>
+      <div class="road__content">
+        <div class="road__map-container">
+          <img src="img/map.svg" alt="" class="road__map" />
+          <img src="img/pointer.svg" alt="" class="road__map-pointer" />
+        </div>
+        <div class="road__blocks">
+          <div class="road__blocks-item">
+            <h3 class="white__title white__title-road">
+              Мы располагаемся по адресу:
+            </h3>
+            <p class="road__txt">
+              Одинцовский район, ул. Дениса Давыдова, 7 ТЦ «Гуссарская Баллада»
+            </p>
+          </div>
+          <div class="road__blocks-item">
+            <h3 class="white__title white__title-road">
+              Добраться до нас можно на:
+            </h3>
+            <p class="road__txt">
+              — Общественном транспорте<br />— На собственном транспорте —
+              доступна парковка на территории торгового центра<br />— Пешком.
+              Клуб расположен в пешей доступности от общежития ВШЭ
+            </p>
+          </div>
+          <div class="road__blocks-item road__bnt-container">
+            <button class="road__bnt">Позвонить</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="games">
+      <h2 class="pink__title">Самые популярные игры</h2>
+      <div class="games__blocks">
+        <div class="games__blocks-item">
+          <img
+            src="img/SateliteReign.svg"
+            alt=""
+            class="games__blocks-item-picture"
+          />
+          <h3 class="white__title white__title-games">Satelite Reign</h3>
+          <p class="games__blocks-item-txt">
+            это киберпанк-тактическая видеоигра в реальном времени
+          </p>
+        </div>
+        <div class="games__blocks-item">
+          <img
+            src="img/LostCastle.svg"
+            alt=""
+            class="games__blocks-item-picture"
+          />
+          <h3 class="white__title white__title-games">Lost Castle</h3>
+          <p class="games__blocks-item-txt">это игра в жанре экшен и rpg</p>
+        </div>
+        <div class="games__blocks-item">
+          <img
+            src="img/KillerIsDead.svg"
+            alt=""
+            class="games__blocks-item-picture"
+          />
+          <h3 class="white__title white__title-games">Killer Is Dead</h3>
+          <p class="games__blocks-item-txt">
+            PC слешер о механизированном палаче, расправляющемся с опасными
+            преступниками
+          </p>
+        </div>
+        <div class="games__blocks-item">
+          <img
+            src="img/GenshinImpact.svg"
+            alt=""
+            class="games__blocks-item-picture"
+          />
+          <h3 class="white__title white__title-games">Genshin Impact</h3>
+          <p class="games__blocks-item-txt">
+            компьютерная игра в жанре action-adventure с открытым миром и
+            элементами RPG
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <hr class="footer__line" />
+      <div class="footer__content-container">
+        <div class="footer__icons">
+          <img src="img/inst.svg" alt="" class="footer__icon" />
+          <img src="img/fb.svg" alt="" class="footer__icon" />
+        </div>
+        <p class="footer__txt">© 2024, Cyber-Face.</p>
+      </div>
+      <div class="footer__elipses-container">
+        <img
+          src="img/elips3.png"
+          alt=""
+          class="footer__elipse footer__elipse-second"
+        />
+        <img
+          src="img/elips1.png"
+          alt=""
+          class="footer__elipse footer__elipse-first"
+        />
+      </div>
+    </section>
+    <button id="scrollToTopBtn" class="scrollToTopBtn">△</button>
+    <script src="script.js"></script>
+  </body>
+</html>
